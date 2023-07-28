@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86323f1-5fbd-4f80-8f01-c58e9d788613" name="Changes" comment="update profile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d86323f1-5fbd-4f80-8f01-c58e9d788613" name="Changes" comment="update profile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "structure",
+    "last_opened_file_path": "C:/Users/ASUS/OneDrive/Desktop/MyPortfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +52,7 @@
       <workItem from="1687583630750" duration="2000" />
       <workItem from="1688830903370" duration="22000" />
       <workItem from="1689405110277" duration="699000" />
+      <workItem from="1690559069703" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="update profile">
       <created>1688814781852</created>

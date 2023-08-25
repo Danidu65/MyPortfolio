@@ -136,11 +136,37 @@ body:nth-child(2) >footer >#MyEducation{
 }
 body:nth-child(2) >footer >section >div{
     color: white;
-    position: relative;
-    top: 125px;
-    text-align: center;
-}
-body:nth-child(2) > footer > section >#div1{
-    color: aqua;
+    position: absolute;
+    top: 100px;
 
+    text-align: center;
+    border: 2px solid #ffffff;
+    width: 300px;
+    aspect-ratio: 1/1;
+
+}
+
+body:nth-child(2) >footer >section >#div1{
+    position: relative;
+    top: 100px;
+}
+body:nth-child(2) > footer > section >#div2{
+    color: aqua;
+    position: relative;
+    left: 0;
+    top: 125px;
+}
+
+body:nth-child(2) > footer > section >#div3{
+    color: aqua;
+    position: relative;
+    right: 0;
+    top: 150px;
+}
+
+body:nth-child(2) > footer > section >#div4{
+    color: aqua;
+    position: relative;
+    right: 0;
+    top: 175px;
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86323f1-5fbd-4f80-8f01-c58e9d788613" name="Changes" comment="update profile">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +23,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2RdcvaecjQKbNmLaCcNV4BPUjFA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyPortfolio\assets\pdf" />
       <recent name="D:\MyPortfolio\assets\icone" />
     </key>
   </component>
@@ -65,7 +66,9 @@
       <workItem from="1689405110277" duration="699000" />
       <workItem from="1690559069703" duration="37000" />
       <workItem from="1690604035326" duration="26000" />
-      <workItem from="1691567120228" duration="1165000" />
+      <workItem from="1691567120228" duration="1746000" />
+      <workItem from="1691723736376" duration="37000" />
+      <workItem from="1692023526955" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="update profile">
       <created>1688814781852</created>
@@ -125,7 +128,63 @@
       <option name="project" value="LOCAL" />
       <updated>1691568303090</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568444276</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568444276</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568605850</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568605850</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568647718</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568647718</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568791285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568791285</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568826606</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568826606</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568843248</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568843248</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1691568862760</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568862760</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

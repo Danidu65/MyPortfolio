@@ -1,0 +1,146 @@
+/*heabody{*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: hidden;*/
+/*}*/
+
+header{
+    position: absolute;
+    background-color: #252936;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 330px;
+
+}
+
+.header1 {
+    color: white;
+}
+
+body > header > nav{
+    position: absolute;
+    position: absolute;
+    width: fit-content;
+    right: 5px;
+    top: 10px;
+    font-size: 15px;
+    font-style: revert;
+    margin-left: 1vw;
+}
+body > header >img{
+    width: 50px;
+    height: 40px;
+    top: 0;
+    left: 10px;
+}
+
+body{
+    background-color: #0c1022;
+}
+body > main > section:first-child > div{
+    position: relative;
+    color: white;
+    left: 10px;
+}
+body > main > section:first-child > div > h5{
+    position: relative;
+    top: 70px;
+    left: 10px;
+}
+
+body > main > section:first-child > div > h2{
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+body > main > section:first-child > div > h4{
+    position: relative;
+    font-size: 15px;
+    top: 40px;
+    left: 10px;
+}
+
+body > main > section:first-child > div > p{
+    position: relative;
+    font-size: 5px;
+    top: 40px;
+    left: 10px;
+}
+
+body > main > section:nth-child(2) > div{
+    position: relative;
+    font-size: 5px;
+    top: 20px;
+    left: 10px;
+}
+
+body > main > section > div:nth-child(2) > a{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+body > main > section > div:nth-child(3) > button{
+    position: relative;
+    top: 70px;
+    left: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+body > main:nth-child(2) >section >img{
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    right: 70px;
+}
+body > footer>h1{
+    position: relative;
+    color: white;
+    top:100px;
+    text-align: center;
+}
+body > footer > section >h3{
+    position: relative;
+    color: white;
+    top: 100px;
+    right: 100px;
+    text-align: center;
+
+}
+
+body> footer >section >img{
+    position: relative;
+    width: 200px;
+    left: 20px;
+    top: 25px;
+}
+
+body > footer > section >p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 450px;
+    right: 20px;
+    left: 250px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100vw;
+    font-size: 15px;
+}
+body:nth-child(2) >footer >#MyEducation{
+    /*position: relative;*/
+    color: white;
+    font-size: 40px;
+}
+body:nth-child(2) >footer >section >div{
+    color: white;
+    position: relative;
+    top: 125px;
+    text-align: center;
+}
+body:nth-child(2) > footer > section >#div1{
+    color: aqua;
+
+}

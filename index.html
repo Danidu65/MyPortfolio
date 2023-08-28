@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
@@ -8,7 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/icone/dv_icone.jpeg" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/home_page_css.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
 
 </head>
@@ -18,6 +23,7 @@
 <header>
     <img src="assets/icone/DV_ICONE-removebg-preview.png">
         <nav >
+            <a class="header1" href="#Home">Home</a>
             <a class="header1" href="#AboutMe">About Me</a>
             <a class="header1" href="#MyEducation">Educations</a>
             <a class="header1" href="#MyProjects">Project</a>
@@ -28,20 +34,20 @@
         </nav>
 </header>
 
-<main>
+<main id="Home">
     <section>
         <div>
             <h5>Welcome My Profile</h5>
             <h2>I AM DANIDU VIRAJ</h2>
             <h4>SOFTWARE ENGINEER UNDERGRADUATED</h4>
-            <P style="font-size:8px;">A Boy Who Trying To Give Real Time Solutions For Problems
+            <P>A Boy Who Trying To Give Real Time Solutions For Problems
                 Through Software.</P>
         </div>
         <div>
-            <a href="https://github.com/Danidu65"><img src="assets/icone/github.png" alt="Github" style="height:25px; width: 90px"></a>
-            <a href="https://www.facebook.com/profile.php?id=100084787574266&mibextid=LQQJ4d"><img src="assets/icone/facebook.png" alt="Facebook" style="height:25px; width: 90px"></a>
-            <a aria-label="Chat on WhatsApp" href="https://wa.me/+94721899167"> <img alt="Chat on WhatsApp" src="assets/icone/whatsapp.png"  style="height:25px; width: 90px;/></a>
-            <a href="href=https://github.com/Danidu65"><img src="assets/icone/linkedin.png" alt="LinkedIn" style="height:25px; width: 90px"></a>
+            <a href="https://github.com/Danidu65"><img src="assets/icone/github.png" alt="Github" style="height:100px; width: 100px"></a>
+            <a href="https://www.facebook.com/profile.php?id=100084787574266&mibextid=LQQJ4d"><img src="assets/icone/facebook.png" alt="Facebook" style="height:100px; width: 100px"></a>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/+94721899167"> <img alt="Chat on WhatsApp" src="assets/icone/whatsapp.png"  style="height:100px; width: 100px;/></a>
+            <a href="https://github.com/Danidu65"><img src="assets/icone/linkedin.png" alt="LinkedIn" style="height:100px; width: 100px"></a>
         </div>
         <div>
             <button>Download CV</button>
@@ -53,8 +59,9 @@
 
     </section>
 </main>
-<footer>
-    <h1 id="AboutMe">About Me</h1>
+<footer id="AboutMe">
+    <h1 id="About">About</h1>
+    <h1 id="Me">Me</h1>
     <section>
         <h3>FullStack Diveloper</h3>
             <p>
@@ -67,13 +74,20 @@
             </p>
     </section>
     <section>
-        <img src="assets/images/photo_2023-07-07_04-42-02-removebg-preview.png" alt="My Photo" width="100" >
+        <img src="assets/images/photo_2023-07-07_04-41-58.jpg" alt="My Photo" width="100" >
     </section>
 </footer>
 
-<footer>
+<footer id="MyEducation">
 
-   <h1 id="MyEducation">My Education</h1>
+    <div>
+        <h1 id="My">My</h1>
+        <h1 id="Education">Education</h1>
+    </div>
+
+    <div id="line">
+
+    </div>
 
     <section>
         <div id="div1">
@@ -104,34 +118,30 @@
     </section>
 </footer>
 
-<!--<footer>-->
-<!--    <br>-->
-<!--    <br>-->
-<!--    <center ><h1 id="MyProjects">My Projects</h1></center>-->
-<!--    <br>-->
-<!--    <br>-->
+<footer id="MyProjects">
+    <section id="section1">
+        <h1 id="#My">My</h1>
+        <h1 id="#Projects">Projects</h1>
+    </section>
 
-<!--    <section>-->
-<!--        <center>-->
+<!--    <section id="section2">-->
+<!--        <body>-->
 <!--            <img src="assets/images/download.jpeg" alt="Project 1" width="250" >-->
 <!--            <h5>Project 01</h5>-->
-<!--        </center>-->
-<!--        <br>-->
-<!--        <br>-->
-<!--        <center>-->
+<!--        </body>-->
+
+<!--        <body>-->
 <!--            <img src="assets/images/Screenshot%202023-04-20%20145134.png" alt="Project 2" width="250" >-->
 <!--            <h5>Project 02</h5>-->
-<!--        </center>-->
-<!--        <br>-->
-<!--        <br>-->
-<!--        <center>-->
+<!--        </body>-->
+
+<!--        <body>-->
 <!--            <img src="assets/images/Screenshot%202023-05-01%20112317.png" alt="Project 3" width="250" >-->
-<!--            <h5>Project 03</h5>-->
-<!--        </center>-->
-<!--        <br>-->
-<!--        <br>-->
-<!--    </section>-->
-<!--</footer>-->
+<!--        <   h5>Project 03</h5>-->
+<!--        </body>-->
+
+    </section>
+</footer>
 
 <!--<footer>-->
 <!--    <br>-->
@@ -222,3 +232,239 @@
 <!--</footer>-->
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Dasun Madawa</title>-->
+
+<!--    <meta name="keyword"-->
+<!--          content="dasun madawa, Dasun Madawa, dasunmadawa, DasunMadwa, Dasunmadawa, dasun, Dasun, madawa, Madawa ">-->
+<!--    <meta name="description" content="Dasun Madawa's portfolio">-->
+<!--    <meta name="author" content="Dasun Madawa">-->
+<!--    <link rel="icon" href="assets/icone/dv_icone.jpeg" type="image/x-icon">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">-->
+
+<!--    <link rel="stylesheet" href="css/normalize.css">-->
+<!--    <link rel="stylesheet" href="css/home_page_css.css">-->
+<!--</head>-->
+
+<!--<body>-->
+
+<!--<header>-->
+<!--    <a href="index.html">-->
+<!--        <img src="/assets/img/logo/logo.png">-->
+<!--    </a>-->
+<!--    <nav>-->
+<!--        <a href="index.html">Home</a>-->
+<!--        <a href="aboutMe.html">About</a>-->
+<!--        <a href="projects.html">Projects</a>-->
+<!--        <a href="assignments.html">Assignments</a>-->
+<!--        <a href="gallery.html">Gallery</a>-->
+<!--    </nav>-->
+<!--</header>-->
+
+<!--<main>-->
+<!--    &lt;!&ndash;        Hero Section        &ndash;&gt;-->
+<!--    <section>-->
+<!--        <h3>Welcome !</h3>-->
+<!--        <h1>I Am</h1>-->
+<!--        <h1>Dasun Madawa</h1>-->
+<!--        <h3>Software Engineer Undergraduate</h3>-->
+<!--        <h4>-->
+<!--            A Boy Who Trying To Give Real Time Solutions For Problems <br>-->
+<!--            Through Software.-->
+<!--        </h4>-->
+<!--        <button>-->
+<!--            Download CV-->
+<!--            <img src="assets/img/icon/download-icon.png" alt="download icon">-->
+<!--        </button>-->
+<!--        <div>-->
+<!--            <img src="assets/img/hero-section-photo.png" alt="my image (hero sec)">-->
+<!--            <img src="assets/img/hero-section-photo-background.jpg" alt="background">-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--            <a href="https://github.com/DasunMadawa"><img src="assets/img/icon/github-icon.png" alt="github icon"-->
+<!--                                                          title="github"></a>-->
+<!--            <a href="https://www.linkedin.com/in/dasun-madawa-41255927b/"><img src="assets/img/icon/linkedin-icon.png"-->
+<!--                                                                               alt="linkedin icon" title="linkedin"></a>-->
+<!--            <a href="https://www.facebook.com/dasun.pabasara.104"><img src="assets/img/icon/facebook-icon.png"-->
+<!--                                                                       alt="facebook icon" title="facebook"></a>-->
+<!--            <a href="https://wa.me/+94716177681"><img src="assets/img/icon/whatsapp-icon.png" alt="whatsapp icon"-->
+<!--                                                      title="whatsapp"></a>-->
+<!--        </div>-->
+
+<!--    </section>-->
+
+<!--    &lt;!&ndash;        About Me        &ndash;&gt;-->
+<!--    <section>-->
+<!--        <img src="/assets/images/home_page_photo.png" alt="my image (about me sec)">-->
+
+<!--        <h3>About Me</h3>-->
+<!--        <div></div>-->
+<!--        <div></div>-->
+
+<!--        <p>-->
+<!--            I’m Full Stack developer and still undergraduate. I’m From Sri Lanka. I like to study new Technologies and-->
+<!--            I’m always proactive about seeking new opportunities to develop and grow in my role.-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            Always try to make Software What are giving practical solutions and also works for the every situations-->
+<!--            without bugs.-->
+<!--        </p>-->
+
+<!--        <button>-->
+<!--            <a href="aboutMe.html">More Info...</a>-->
+<!--        </button>-->
+
+
+<!--    </section>-->
+
+<!--    &lt;!&ndash;    &lt;!&ndash;          Education        &ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;    <section>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/icon/svg/education-icon.svg" alt="education icon">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <h3>Education</h3>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Primary Education (2008 - 2012)</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Taxila Primary College -Horana</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Ordinary Level (2013 - 2018)</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Taxila Central College -Horana</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Advanced Level (2018 - 2021)</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Taxila Central College -Horana</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Higher Education (2022)</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                <p>Institute of Software Engineering</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </section>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    &lt;!&ndash;        Job Roles          &ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;    <section>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <h3>Job Roles</h3>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/icon/svg/full-stack-developer.svg" alt="full-stack developer icon">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Full-Stack Developer</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Develops both the front end and the back end.</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/icon/svg/back-end-developer.svg" alt="back-end developer icon">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Back-End Developer</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Develops the back end of the software.</p>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/icon/svg/front-end-developer.svg" alt="front-end developer icon">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Front-End Developer</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Develops the front end of the software.</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/icon/svg/web-developer.svg" alt="web developer icon">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Web Developer</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Develops web sites.</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/icon/svg/qa.svg" alt="qa icon">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>QA</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>Analyze bugs and errors.</p>&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </section>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    &lt;!&ndash;        Recent Projects         &ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;    <section>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <h3>Recent Projects</h3>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/harbormaster-front-ui.png" alt="harbormaster front ui">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                PROJECT HARBOURMASTER&ndash;&gt;-->
+<!--    &lt;!&ndash;            </p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                Manage works in a boat Harbor&ndash;&gt;-->
+<!--    &lt;!&ndash;            </p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/logo/harbormaster-logo.png" alt="harbormaster logo">&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/crime-tracker-front-ui.png" alt="crime tracker front ui">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                CRIME TRACKER&ndash;&gt;-->
+<!--    &lt;!&ndash;            </p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                Manage works in a Police&ndash;&gt;-->
+<!--    &lt;!&ndash;            </p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="assets/img/logo/crime-tracker-logo.png" alt="crime tracker logo">&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <div>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <img src="" alt="">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                PROJECT TEA COLLECTOR&ndash;&gt;-->
+<!--    &lt;!&ndash;            </p>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <p>&ndash;&gt;-->
+<!--    &lt;!&ndash;                Manage tea collecting rates in a business&ndash;&gt;-->
+<!--    &lt;!&ndash;            </p>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;            <img src="" alt="">&ndash;&gt;-->
+<!--    &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </section>&ndash;&gt;-->
+
+<!--</main>-->
+
+<!--&lt;!&ndash;<footer>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <h3>Contacts</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <img src="assets/img/icon/phone-icon.png" alt="phone icon">&ndash;&gt;-->
+<!--&lt;!&ndash;            <h4>Contacts</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>&ndash;&gt;-->
+<!--&lt;!&ndash;                +94 76 021 9292&ndash;&gt;-->
+<!--&lt;!&ndash;                <br>&ndash;&gt;-->
+<!--&lt;!&ndash;                +94 71 617 7681&ndash;&gt;-->
+<!--&lt;!&ndash;            </p>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <img src="assets/img/icon/svg/email-icon.svg" alt="email icon">&ndash;&gt;-->
+<!--&lt;!&ndash;            <h4>E-mail</h4>&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>&ndash;&gt;-->
+<!--&lt;!&ndash;                dasunmadawa8864@gmail.com&ndash;&gt;-->
+<!--&lt;!&ndash;            </p>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a href="https://github.com/DasunMadawa"><img src="assets/img/icon/github-icon.png" alt="github icon" title="github"></a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a href="https://www.facebook.com/dasun.pabasara.104"><img src="assets/img/icon/facebook-icon.png" alt="facebook icon" title="facebook"></a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a href="https://wa.me/+94716177681"><img src="assets/img/icon/whatsapp-icon.png" alt="whatsapp icon" title="whatsapp"></a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a href="https://www.linkedin.com/in/dasun-madawa-41255927b/"><img src="assets/img/icon/linkedin-icon.png" alt="linkedin icon" title="linkedin"></a>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <img src="assets/img/logo/logo.png" alt="logo icon">&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;</footer>&ndash;&gt;-->
+
+
+<!--</body>-->
+<!--</html>-->

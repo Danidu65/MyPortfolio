@@ -1,7 +1,7 @@
 /*------------------------------------------------------header eka--------------------------------------------------*/
 body{
     font-family: 'Roboto' , sans-serif;
-    background-color: #2D394B;
+    background-color: #0c1022;
     /*background-color: #03D2FF;*/
 }
 
@@ -211,77 +211,77 @@ body > footer > section >p{
     padding-left: 20px;
 }
 
-/*!*!*-----------------------------------------------------MY EDUCATION--------------------------------------------------------*!*!*/
+/*!*!*!*-----------------------------------------------------MY EDUCATION--------------------------------------------------------*!*!*!*/
 
-body:nth-child(2) > footer > div >h1{
-    position: absolute;
-    top: 1900px;
-    font-size: 70px;
-    text-align: center;
+/*body:nth-child(2) > footer > div >h1{*/
+/*    position: absolute;*/
+/*    top: 1900px;*/
+/*    font-size: 70px;*/
+/*    text-align: center;*/
 
-}
-
-
-body:nth-child(2) >footer > div > #My{
-    color: #00e2ff;
-    display: inline;
-    left: 750px;
-}
-
-body:nth-child(2) >footer > div > #Education{
-    color: #000000;
-    display: inline-block;
-    left: 875px;
-}
-
-body:nth-child(2) > footer >#line {
-    position: absolute;
-    height: 1700px;
-    width: 5px;
-    background-color: #00e2ff;
-    left: 950px;
-    top: 220vh;
-}
+/*}*/
 
 
-body:nth-child(2) >footer >section >div{
-    color: #000000;
-    position: absolute;
-    top: 100px;
-    text-align: center;
-    border: 2px solid #00e2ff;
-    width: 500px;
-    aspect-ratio: 1/1;
-    background-color: #377793;
-    border-radius: 20px;
-}
+/*body:nth-child(2) >footer > div > #My{*/
+/*    color: #00e2ff;*/
+/*    display: inline;*/
+/*    left: 750px;*/
+/*}*/
 
-body:nth-child(2) >footer >section >#div1{
-    position: absolute;
-    top: 2100px;
-    left: 300px;
+/*body:nth-child(2) >footer > div > #Education{*/
+/*    color: #000000;*/
+/*    display: inline-block;*/
+/*    left: 875px;*/
+/*}*/
 
-}
-body:nth-child(2) > footer > section >#div2{
-    color: aqua;
-    position: absolute;
-    right: 300px;
-    top: 2500px;
-}
+/*body:nth-child(2) > footer >#line {*/
+/*    position: absolute;*/
+/*    height: 1700px;*/
+/*    width: 5px;*/
+/*    background-color: #00e2ff;*/
+/*    left: 950px;*/
+/*    top: 220vh;*/
+/*}*/
 
-body:nth-child(2) > footer > section >#div3{
-    color: red;
-    position: absolute;
-    left: 300px;
-    top: 2900px;
-}
 
-body:nth-child(2) > footer > section >#div4{
-    color: blue;
-    position: absolute;
-    right: 300px;
-    top: 3300px;
-}
+/*body:nth-child(2) >footer >section >div{*/
+/*    color: #000000;*/
+/*    position: absolute;*/
+/*    top: 100px;*/
+/*    text-align: center;*/
+/*    border: 2px solid #00e2ff;*/
+/*    width: 500px;*/
+/*    aspect-ratio: 1/1;*/
+/*    background-color: #377793;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+/*body:nth-child(2) >footer >section >#div1{*/
+/*    position: absolute;*/
+/*    top: 2100px;*/
+/*    left: 300px;*/
+
+/*}*/
+/*body:nth-child(2) > footer > section >#div2{*/
+/*    color: aqua;*/
+/*    position: absolute;*/
+/*    right: 300px;*/
+/*    top: 2500px;*/
+/*}*/
+
+/*body:nth-child(2) > footer > section >#div3{*/
+/*    color: red;*/
+/*    position: absolute;*/
+/*    left: 300px;*/
+/*    top: 2900px;*/
+/*}*/
+
+/*body:nth-child(2) > footer > section >#div4{*/
+/*    color: blue;*/
+/*    position: absolute;*/
+/*    right: 300px;*/
+/*    top: 3300px;*/
+/*}*/
 
 /*!*-------------------------------------------------------MY Projects----------------------------------------------------*!*/
 
@@ -304,3 +304,6 @@ body :nth-child(3) >footer >#section1 >#Projects{
     display: inline;
     left: 875px;
 }
+
+/*------------------------------------------------------assingment--------------------------------------------------------------*/
+

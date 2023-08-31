@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86323f1-5fbd-4f80-8f01-c58e9d788613" name="Changes" comment="update profile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,7 @@
       <workItem from="1691567120228" duration="1746000" />
       <workItem from="1691723736376" duration="37000" />
       <workItem from="1692023526955" duration="959000" />
+      <workItem from="1693465596118" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="update profile">
       <created>1688814781852</created>

@@ -295,25 +295,38 @@ body > footer > section >p{
 
 /*!*-------------------------------------------------------MY Projects----------------------------------------------------*!*/
 
-body :nth-child(3) >footer >#section1{
-    position: relative;
+body :nth-child(2) >footer >h1{
+    position: absolute;
     /*left: 40vw;*/
-    /*top: 225vh;*/
+    top: 225vh;
     font-size: 40px;
     text-align: center;
 }
 
-body :nth-child(3) >footer >#section1 >#My{
+body :nth-child(2) >footer  >#My{
     color: #000000;
     display: inline;
     left: 250px;
 }
 
-body :nth-child(3) >footer >#section1 >#Projects{
+body :nth-child(2) >footer >#Projects{
     color: #00e2ff;
     display: inline;
     left: 875px;
 }
 
+body :nth-child(2) >footer > #section2 :first-child >div >img {
+    position: relative;
+    width: 40vh;
+    left: 20px;
+    top: 1vh;
+    border-radius: 50px;
+
+}
+body :nth-child(2) >footer > #section2 :first-child >div >h5{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
 /*------------------------------------------------------assingment--------------------------------------------------------------*/
 

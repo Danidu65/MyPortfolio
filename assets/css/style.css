@@ -6,16 +6,18 @@
     scroll-behavior: smooth;
     z-index: 10;
 }
-body{
-    background: #2D394B;
-    color: #fff;
-    overflow-x: hidden;
+.hr{
+    height: 5px;
+    border-color: #00e2ff;
+    background-image: -webkit-linear-gradient(left, #02dcfd, #efefef, #01fa5e);
 }
-hr{
-    height: 3px;
-    background-color: #0ef;
-    border: #0ef;
-}
+
+/*hr {*/
+/*    height: 3px;*/
+/*    background-color: #ff0000;*/
+/*    border: #f60000;*/
+/*}*/
+
 ::-webkit-scrollbar{
     width: 12px;
 }
@@ -81,6 +83,13 @@ hr{
     backdrop-filter: blur(50px);
     z-index: -1;
 }
+
+body{
+    background: #2D394B;
+    color: #fff;
+    overflow-x: hidden;
+}
+
 .header::after{
     content: '';
     position: absolute;

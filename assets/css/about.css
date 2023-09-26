@@ -3,6 +3,14 @@
     position: relative;
     z-index: 10;
 }
+.center-subtopic{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+    color: rgba(255, 255, 255, .5);
+}
 .middle-quote{
     text-align: center;
     font-size: 18px;
@@ -24,9 +32,27 @@
     height: fit-content;
     margin-right: 100px;
     background: transparent;
-    box-shadow: 0 15px 35px rgba(0,238,255, .3);
+    box-shadow: 0 15px 35px rgb(14, 125, 147);
 }
-
+.card .lines
+{
+    position: absolute;
+    inset: 0;
+    background: #073f3f;
+    overflow: hidden;
+}
+.card .lines::before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 120px;
+    background: linear-gradient(transparent,#45f3ff, #ffffff, #09fa28,transparent);
+    animation: animate 4s linear infinite;
+}
 @keyframes animate
 {
     0%
@@ -38,10 +64,15 @@
         transform: translate(-50%,-50%) rotate(360deg);
     }
 }
-
+.card .lines::after{
+    content: '';
+    position: absolute;
+    inset: 3px;
+    background: #000000;
+}
 .card-img{
     width: 500px;
-    height: 610px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,26 +11,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/Home.css">
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/assingment.css">
-    <link rel="stylesheet" href="assets/css/project.css">
-    <link rel="stylesheet" href="assets/css/gallery.css">
-    <link rel="stylesheet" href="assets/css/copyright.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 
     <title>Danidu Viraj | MyPortfolio</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-<div id="scroll">
-    <a href="#" id="scroll-value">&#x1F815;</a>
+<div id="preloader">
+    <div id="preloader-overlayer"></div>
+    <img src="assets/img/111.gif" alt="">
 </div>
 
-<div id="cursor-dot" data-cursor-dot></div>
-<div id="cursor-outline" data-cursor-outline></div>
+<!--<div id="scroll"><a href="#" id="scroll-value">&#x1F815;</a></div>-->
+<!--<div id="cursor-dot" data-cursor-dot></div>-->
+<!--<div id="cursor-outline" data-cursor-outline></div>-->
+
 <header class="header">
     <a href="#" class="logo">DV<span class="cyan">.</span></a>
 
@@ -41,47 +47,50 @@
     </label>
 
     <nav class="nav-bar">
-        <a href="#home"style="--i:0;">Home</a>
-        <a href="#aboutMe"style="--i:1;">About</a>
-        <a href="#Project"style="--i:2;">Project</a>
-        <a href="#Assignment"style="--i:3;">Assignment</a>
-        <a href="#gallery"style="--i:4;">Gallery</a>
-        <a href="#contact"style="--i:4;">Contact</a>
+        <a href="#home" style="--i:0;">Home</a>
+        <a href="#aboutMe" style="--i:1;">About</a>
+        <a href="#projects" style="--i:2;">Project</a>
+        <a href="#Assignment" style="--i:3;">Assignment</a>
+        <a href="#gallery" style="--i:4;">Gallery</a>
+        <a href="#contact" style="--i:4;">Contact</a>
     </nav>
 </header>
 
 <div id="home">
-    <div class="home-content">
-        <h3>Welcome My Profile<div></div></h3>
+    <div class="home-content" data-aos="zoom-out-right">
+        <h3>Welcome My Profile
+            <div></div>
+        </h3>
         <h1>I Am <span style="color: #00e2ff">Danidu Viraj</span></h1>
         <h3>Software Engineer Undergraduate</h3>
         <p>I like to study new things. Being knowledgeable about PROGRAMMING or any subject is an ongoing process,<br>
             and I’m always proactive about seeking new opportunities to develop and grow in my role.<br>
             Those opportunities could be in the form of training, a conference, listening to a speaker,<br>
-            or taking on a new project, but the motivation is to increase my knowledge of the field.<span class="cyan">.</span></p>
+            or taking on a new project, but the motivation is to increase my knowledge of the field.<span
+                    class="cyan">.</span></p>
 
         <div class="social-media">
-            <a href="https://github.com/Danidu65" ><i > <img src="assets/icone/icons8-github-50.png"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100084787574266&mibextid=LQQJ4d" ><i > <img src="assets/icone/icons8-fb-50.png"></i></a>
-            <a href="https://www.linkedin.com/in/danidu-viraj-152bb6267" ><i > <img src="assets/icone/icons8-linkedin-50.png"></i></a>
-            <a href="https://www.instagram.com/danidu_viraj_/" ><i > <img src="assets/icone/icons8-instagram-50.png"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100084787574266&mibextid=LQQJ4d"><i
+                    class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/danidu-viraj-152bb6267"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/danidu_viraj_/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Danidu65"><i class='bx bxl-github'></i></a>
         </div>
-        <div class="btn">
-            <a href="assets/css/test.txt" download>Download CV</a>
-        </div>
+        <a href="#" class="btn11">Download CV</a>
 
     </div>
 
     <div id="home-image-wrapper">
         <div id="home-image-cyan-circle">
         </div>
-        <div class="home-image">
+        <div class="home-image animate__animated animate__heartBeat">
             <img src="assets/img/home_page_photo.png" width="500" alt="Hero Image">
         </div>
     </div>
 
 </div>
-<hr class="hr">
+<!--<hr class="hr">-->
 
 
 <!--//////////////////////////////about me///////////////////////////////////////-->
@@ -93,7 +102,8 @@
             </div>
             <div class="content">
                 <div class="card-img">
-                    <img src="assets/gallery/Aboutme.png" alt="hero">
+                    <img src="assets/gallery/WhatsApp_Image_2023-10-15_at_18.43.28_358a6cc9-removebg-preview.png"
+                         alt="hero">
                 </div>
             </div>
         </div>
@@ -102,177 +112,149 @@
             <h1>About Me<span class="cyan"></span></h1>
 
 
-            <p>As a passionate software engineering student, I specialize in Java and am constantly seeking opportunities to expand my knowledge and skills.
-                With a commitment to using technology to make a positive impact on society, I believe in pushing myself to grow and improve as a developer.
-                Whether you're interested in collaborating on a  project or discussing the latest trends in software engineering,
+            <p>As a passionate software engineering student, I specialize in Java and am constantly seeking
+                opportunities to expand my knowledge and skills.
+                With a commitment to using technology to make a positive impact on society, I believe in pushing myself
+                to grow and improve as a developer.
+                Whether you're interested in collaborating on a project or discussing the latest trends in software
+                engineering,
                 I'm always up for a challenge and excited to connect with like-minded professionals.</p>
 
-                            <div class="tab-titles">
-                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                                <p class="tab-links" onclick="opentab('education')">Education</p>
-                            </div>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
 
-                            <div class="tab-contents active-tab" id="skills">
-                                <ul>
-                                    <li><span>Stand-alone</span><br>Java</li>
-                                    <li><span>Database</span><br>My-SQL</li>
-                                    <li><span>Web-development</span><br>Html / css / JavaScript</li>
-                                    <li><span>Designing</span><br>Photoshop</li>
-                                    <li><span>Editing</span><br>Figma / canva</li>
-                                </ul>
-                            </div>
-                            <div class="tab-contents active-tab" id="education">
-                                <ul>
-                                    <li>
-                                        <h3 id="h1">Software Engineering Degree</h3>
-                                        <h5>2024 - 2025</h5>
-                                        <p>Institue in Java Software Engineering
-                                    </li>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Stand-alone</span><br>Java</li>
+                    <li><span>Database</span><br>My-SQL</li>
+                    <li><span>Web-development</span><br>Html / css / JavaScript</li>
+                    <li><span>Designing</span><br>Photoshop</li>
+                    <li><span>Editing</span><br>Figma / canva</li>
+                </ul>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li>
+                        <h3 id="h1">Software Engineering Degree</h3>
+                        <h5>2024 - 2025</h5>
+                        <p>Institue in Java Software Engineering
+                    </li>
 
-                                    <li>
-                                        <h3 id="h3">G.C.E Advanced Level Examination</h3>
-                                        <h5>2021 - 2023</h5>
-                                        <p>Bulathsinhala Central Collage</p>
-                                    </li>
+                    <li>
+                        <h3 id="h3">G.C.E Advanced Level Examination</h3>
+                        <h5>2021 - 2023</h5>
+                        <p>Bulathsinhala Central Collage</p>
+                    </li>
 
-                                    <li>
-                                        <h3 id="h4">G.C.E Advanced Level Examination</h3>
-                                        <h5>2016 - 2021</h5>
-                                        <p>Bulathsinhala Central Collage</p>
-                                    </li>
+                    <li>
+                        <h3 id="h4">G.C.E Advanced Level Examination</h3>
+                        <h5>2016 - 2021</h5>
+                        <p>Bulathsinhala Central Collage</p>
+                    </li>
 
-                                    <li>
-                                        <h3 id="h5">G.C.E Ordinary Level Examination</h3>
-                                        <h5>2010 - 2015</h5>
-                                        <p>Bulathsinhala Primary Collage</p>
-                                    </li>
+                    <li>
+                        <h3 id="h5">G.C.E Ordinary Level Examination</h3>
+                        <h5>2010 - 2015</h5>
+                        <p>Bulathsinhala Primary Collage</p>
+                    </li>
 
-                                    <li>
-                                        <h3 id="h6">English Course</h3>
-                                        <h5>2022 - 2022</h5>
-                                        <p>The English Bank Accadamy</p>
-                                    </li>
+                    <li>
+                        <h3 id="h6">English Course</h3>
+                        <h5>2022 - 2022</h5>
+                        <p>The English Bank Accadamy</p>
+                    </li>
 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
-<hr class="hr">
+<!--<hr class="hr">-->
+<!--    ////////////////////////////////////////service//////////////////////////////////////-->
+<h1 id="my_service"><span class="Service">My Service</span></h1>
+<div id="service">
+    <div class="container">
+        <div class="service-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus aperiam autem delectus, eos
+                    fugiat harum laboriosam,
+                    nulla odio pariatur porro possimus, quos sed sint tempore ut. Ducimus, rem!</p>
+                <a href="#">More</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus aperiam autem delectus, eos
+                    fugiat harum laboriosam,
+                    nulla odio pariatur porro possimus, quos sed sint tempore ut. Ducimus, rem!</p>
+                <a href="#">More</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus aperiam autem delectus, eos
+                    fugiat harum laboriosam,
+                    nulla odio pariatur porro possimus, quos sed sint tempore ut. Ducimus, rem!</p>
+                <a href="#">More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <!--////////////////////////////////////Projects/////////////////////////////////-->
-<h1 id="Project" class="page-header-a"> <span class="skils1">My</span> Peojects</h1>
-<div>
-    <div class="assignment-card">
-        <div class="assignment-card-content">
-            <div class="assignment-card-front">
-                <img class="assignment-card-image" src="assets/img/Hostal-management-system.jpeg" alt="harbormaster front ui">
-                <p class="assignment-card-title">
-                    Project 01
-                </p>
-                <p class="assignment-card-subtitle">
-                    Using Hibernate
-                </p>
+<h1 id="projects" class="page-header-a"><span class="skils1">My Projects</span></h1>
+<div id="project">
+    <div class="container">
+        <div class="project-list">
+            <div class="project">
+                <img src="assets/img/Hostal-management-system.jpeg" alt="harbormaster front ui">
+                <div class="layer">
+                    <h3>Hotel Management System</h3>
+                    <p>This project create the using Hibornate</p>
+                    <a href="https://github.com/Danidu65/Hostal-Management-System"> <i
+                            class="fas fa-external-link-alt"></i> </a>
+                </div>
             </div>
-            <div class="assignment-card-back">
-                <p class="assignment-card-title-back">
-                    Project 01
-                </p>
-                <!--                        <hr class="hr-style">-->
-                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                    Hostal Management System
-                </p>
-                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                    <a href="https://github.com/Danidu65/Hostal-Management-System" target="_blank">Code</a>
-                </button>
+            <div class="project">
+                <img src="assets/img/Chat-Application.png" alt="harbormaster front ui">
+                <div class="layer">
+                    <h3>Chat Application</h3>
+                    <p>This project create the using MVC , JDBC , JAVAFX and Java</p>
+                    <a href="https://github.com/Danidu65/ChatAppication"> <i class="fas fa-external-link-alt"></i> </a>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="assignment-card">
-        <div class="assignment-card-content">
-            <div class="assignment-card-front">
-                <img class="assignment-card-image" src="assets/img/Chat-Application.png" alt="harbormaster front ui">
-                <p class="assignment-card-title">
-                    Project 02
-                </p>
-                <p class="assignment-card-subtitle">
-                      ...
-                </p>
+            <div class="project">
+                <img src="assets/img/police-Project.jpeg" alt="harbormaster front ui">
+                <div class="layer">
+                    <h3>Project Police</h3>
+                    <p>This project create the using MVC , JDBC , JAVAFX and Java</p>
+                    <a href="https://github.com/Danidu65/Project-Police"> <i class="fas fa-external-link-alt"></i> </a>
+                </div>
             </div>
-            <div class="assignment-card-back">
-                <p class="assignment-card-title-back">
-                    Project 02
-                </p>
-                <!--                        <hr class="hr-style">-->
-                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                    Chat Application
-                </p>
-                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                    <a href="https://github.com/Danidu65/ChatAppication" target="_blank">Code</a>
-                </button>
+            <div class="project">
+                <img src="assets/img/Library-management-system.png" alt="harbormaster front ui">
+                <div class="layer">
+                    <h3>Library Management System</h3>
+                    <p>This project create the using MVC , JDBC , JAVAFX and Java</p>
+                    <a href="https://github.com/Danidu65/Library-System-Using-MVC"> <i
+                            class="fas fa-external-link-alt"></i> </a>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="assignment-card">
-        <div class="assignment-card-content">
-            <div class="assignment-card-front">
-                <img class="assignment-card-image" src="assets/img/police-Project.jpeg" alt="harbormaster front ui">
-                <p class="assignment-card-title">
-                    Project 03
-                </p>
-                <p class="assignment-card-subtitle">
-                   Using JavaFx , Java , Mysql
-                </p>
-            </div>
-            <div class="assignment-card-back">
-                <p class="assignment-card-title-back">
-                   Project 03
-                </p>
-                <!--                        <hr class="hr-style">-->
-                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                   Project Here
-                </p>
-                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                    <a href="https://github.com/Danidu65/Project-Police" target="_blank">Code</a>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <div class="assignment-card">
-        <div class="assignment-card-content">
-            <div class="assignment-card-front">
-                <img class="assignment-card-image" src="assets/img/Library-management-system.png" alt="harbormaster front ui">
-                <p class="assignment-card-title">
-                    Project 04
-                </p>
-                <p class="assignment-card-subtitle">
-                    Using Java , MuSql , JavaFx
-                </p>
-            </div>
-            <div class="assignment-card-back">
-                <p class="assignment-card-title-back">
-                    Project 04
-                </p>
-                <!--                        <hr class="hr-style">-->
-                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                    Project Here
-                </p>
-                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                    <a href="https://github.com/Danidu65/Library-System-Using-MVC-" target="_blank">Code</a>
-                </button>
-            </div>
-        </div>
-    </div>
+    <a href="#" class="btn">See More</a>
 </div>
-<hr class="hr">
+
 <!--/////////////////////////////////////Skils////////////////////////////////////-->
 
 <section class="skils">
     <h3>What <span class="skils1">I Learn</span></h3>
-    <div>
+    <div class="skil-list">
         <img src="assets/icone/css-icon.svg" alt="java icon">
         <img src="assets/icone/html-icon.svg" alt="mysql icon">
         <img src="assets/icone/java-icon.svg" alt="js icon">
@@ -280,12 +262,12 @@
         <img src="assets/icone/mysql-icon.svg" alt="html icon">
     </div>
 </section>
-<hr class="hr">
+<!--<hr class="hr">-->
 <!--///////////////////////////////////Assignment////////////////////////////////-->
-            <!--    Assignments Card    -->
+<!--    Assignments Card    -->
 
 <h1 id="Assignment" class="page-header-a">Assignments</h1>
-<div>
+<div class="assignment-list">
     <div class="assignment-card">
         <div class="assignment-card-content">
             <div class="assignment-card-front">
@@ -297,498 +279,493 @@
                     Sitemap , Wireframe , Mockup (Portfolio)
                 </p>
             </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 01
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="https://github.com/Danidu65/MyPortfolio/blob/master/readme.md" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 02
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Web Structure (Portfolio)
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 02
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="https://github.com/Danidu65/MyPortfolio/tree/structure" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 03
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    CSS Positioning
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 03
-                                </p>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 01
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="https://github.com/Danidu65/MyPortfolio/blob/master/readme.md" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 02
+                </p>
+                <p class="assignment-card-subtitle">
+                    Web Structure (Portfolio)
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 02
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="https://github.com/Danidu65/MyPortfolio/tree/structure" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 03
+                </p>
+                <p class="assignment-card-subtitle">
+                    CSS Positioning
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 03
+                </p>
 
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-run-btn-back-1">
-                                    <a href="" target="_blank">Run</a>
-                                </button>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case01" target="_blank">Code</a>
-                                </button>
-                                <hr class="hr-style hr-style-1">
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-run-btn-back-1">
+                    <a href="" target="_blank">Run</a>
+                </button>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case01" target="_blank">Code</a>
+                </button>
+                <hr class="hr-style hr-style-1">
 
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-2">
-                                    CASE - 02
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-run-btn-back-2">
-                                    <a href="" target="_blank">Run</a>
-                                </button>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-2">
-                                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case02" target="_blank">Code</a>
-                                </button>
-                                <hr class="hr-style hr-style-2">
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-2">
+                    CASE - 02
+                </p>
+                <button class="assignment-card-btn-back assignment-card-run-btn-back-2">
+                    <a href="" target="_blank">Run</a>
+                </button>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-2">
+                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case02" target="_blank">Code</a>
+                </button>
+                <hr class="hr-style hr-style-2">
 
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-3">
-                                    CASE - 03
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-run-btn-back-3">
-                                    <a href="" target="_blank">Run</a>
-                                </button>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-3">
-                                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case03" target="_blank">Code</a>
-                                </button>
-                                <hr class="hr-style hr-style-3">
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-3">
+                    CASE - 03
+                </p>
+                <button class="assignment-card-btn-back assignment-card-run-btn-back-3">
+                    <a href="" target="_blank">Run</a>
+                </button>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-3">
+                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case03" target="_blank">Code</a>
+                </button>
+                <hr class="hr-style hr-style-3">
 
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-4">
-                                    CASE - 04
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-run-btn-back-4">
-                                    <a href="" target="_blank">Run</a>
-                                </button>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-4">
-                                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case04" target="_blank">Code</a>
-                                </button>
-                                <hr class="hr-style hr-style-4">
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-4">
+                    CASE - 04
+                </p>
+                <button class="assignment-card-btn-back assignment-card-run-btn-back-4">
+                    <a href="" target="_blank">Run</a>
+                </button>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-4">
+                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case04" target="_blank">Code</a>
+                </button>
+                <hr class="hr-style hr-style-4">
 
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-5">
-                                    CASE - 05
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-run-btn-back-5">
-                                    <a href="" target="_blank">Run</a>
-                                </button>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-5">
-                                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case05" target="_blank">Code</a>
-                                </button>
-                                <hr class="hr-style hr-style-5">
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-5">
+                    CASE - 05
+                </p>
+                <button class="assignment-card-btn-back assignment-card-run-btn-back-5">
+                    <a href="" target="_blank">Run</a>
+                </button>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-5">
+                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case05" target="_blank">Code</a>
+                </button>
+                <hr class="hr-style hr-style-5">
 
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-6">
-                                    CASE - 06
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-run-btn-back-6">
-                                    <a href="" target="_blank">Run</a>
-                                </button>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-6">
-                                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case06" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-6">
+                    CASE - 06
+                </p>
+                <button class="assignment-card-btn-back assignment-card-run-btn-back-6">
+                    <a href="" target="_blank">Run</a>
+                </button>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-6">
+                    <a href="https://github.com/Danidu65/Assignment_04/tree/main/case06" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
 
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 05
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Apply CSS To Portfolio
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 05
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="https://github.com/DasunMadawa/MyPortFolio/tree/styles" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 06
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Sitemap , Wireframe , Mockup (Custom POS)
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 06
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="https://github.com/DasunMadawa/ITS1119-Assignment-06/blob/master/readme.md" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 07
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Assignment 07
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 07
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 08
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Assignment 08
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 08
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 09
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Assignment 09
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 09
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 10
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Assignment 10
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 10
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="assignment-card">
-                        <div class="assignment-card-content">
-                            <div class="assignment-card-front">
-                                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
-                                <p class="assignment-card-title">
-                                    Assignment 11
-                                </p>
-                                <p class="assignment-card-subtitle">
-                                    Assignment 11
-                                </p>
-                            </div>
-                            <div class="assignment-card-back">
-                                <p class="assignment-card-title-back">
-                                    Assignment 11
-                                </p>
-                                <!--                        <hr class="hr-style">-->
-                                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
-                                    CASE - 01
-                                </p>
-                                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
-                                    <a href="" target="_blank">Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 05
+                </p>
+                <p class="assignment-card-subtitle">
+                    Apply CSS To Portfolio
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 05
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="https://github.com/DasunMadawa/MyPortFolio/tree/styles" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 06
+                </p>
+                <p class="assignment-card-subtitle">
+                    Sitemap , Wireframe , Mockup (Custom POS)
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 06
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="https://github.com/DasunMadawa/ITS1119-Assignment-06/blob/master/readme.md"
+                       target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 07
+                </p>
+                <p class="assignment-card-subtitle">
+                    Assignment 07
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 07
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 08
+                </p>
+                <p class="assignment-card-subtitle">
+                    Assignment 08
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 08
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 09
+                </p>
+                <p class="assignment-card-subtitle">
+                    Assignment 09
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 09
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 10
+                </p>
+                <p class="assignment-card-subtitle">
+                    Assignment 10
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 10
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="assignment-card">
+        <div class="assignment-card-content">
+            <div class="assignment-card-front">
+                <img class="assignment-card-image" src="assets/img/Assingment.jpeg" alt="harbormaster front ui">
+                <p class="assignment-card-title">
+                    Assignment 11
+                </p>
+                <p class="assignment-card-subtitle">
+                    Assignment 11
+                </p>
+            </div>
+            <div class="assignment-card-back">
+                <p class="assignment-card-title-back">
+                    Assignment 11
+                </p>
+                <!--                        <hr class="hr-style">-->
+                <p class="assignment-card-subtitle-back assignment-card-subtitle-back-1">
+                    CASE - 01
+                </p>
+                <button class="assignment-card-btn-back assignment-card-code-btn-back-1">
+                    <a href="" target="_blank">Code</a>
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+<!--<hr class="hr">-->
+<!--////////////////////////Gallery ////////////////////////////////////////////////-->
+<!--<section class="galary">-->
+<!--    <h1 class="page-header" id="gallery">Gallery</h1>-->
+<!--        <div class="box">-->
+<!--            <span style="&#45;&#45;i:1;"><img src="assets/gallery/photo_2023-07-07_04-41-44.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:2;"><img src="assets/gallery/photo_2023-07-07_04-41-58.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:3;"><img src="assets/gallery/photo_2023-07-07_04-42-07.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:4;"><img src="assets/gallery/photo_2023-07-07_04-42-16.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:5;"><img src="assets/gallery/photo_2023-09-26_01-12-13.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:6;"><img src="assets/gallery/photo_2023-09-26_01-13-22.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:7;"><img src="assets/gallery/photo_2023-09-26_01-14-26.jpg"></span>-->
+<!--            <span style="&#45;&#45;i:8;"><img src="assets/gallery/photo_2023-09-26_01-18-57.jpg"></span>-->
+<!--        </div>-->
+<!--</section>-->
+
+<section class="galary">
+    <h1 class="page-header" id="gallery">Gallery</h1>
+    <div class="gallery-container">
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+</section>
+
+<!--//////////////////////////////////////Contact///////////////////////////////////////////-->
+<!--<hr class="hr">-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bx-send'></i> daniduviraj04@gmail.com</p>
+                <p><i class='bx bx-phone'></i> 0726708140</p>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="wBtn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--                ////////////////////copyright section/////////////////////-->
+
+<footer>
+    <div class="footer">
+        <div class="copyright-area">
+            <div class="copyright-text">
+                <p>Copyright © 2023 All rights reserved || Designed By: <a href="https://instagram.com/danidu_viraj_">Danidu
+                    Viraj</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 <div class="up-btn">
     <a href="#">
         <i class="fa-regular fa-circle-up"></i>
     </a>
 </div>
-<hr class="hr">
-<!--////////////////////////Gallery ////////////////////////////////////////////////-->
-    <section class="gallery-a" id="gallery">
-        <h1 class="page-header">Gallery</h1>
-        <div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
-            </div>
-        </div>
-    </section>
-
-    <div class="up-btn">
-        <a href="#">
-            <i class="fa-regular fa-circle-up"></i>
-        </a>
-    </div>
-
-<hr class="hr">
-
-<!--//////////////////////////////////////Contact///////////////////////////////////////////-->
-                <div id="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="contact-left">
-                                <h1 class="sub-title">Contact Me</h1>
-                                <p><i class='bx bx-send' ></i> daniduviraj04@gmail.com</p>
-                                <p><i class='bx bx-phone'></i> 0726708140</p>
-
-                            </div>
-                            <div class="contact-right">
-                                <form name="submit-to-google-sheet">
-                                    <input type="text" name="Name" placeholder="Your Name" required>
-                                    <input type="email" name="Email" placeholder="Your Email" required>
-                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                                    <button type="submit" class="wBtn btn2">Submit</button>
-                                </form>
-                                <span id="msg"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-<!--                ////////////////////copyright section/////////////////////-->
-
-                <footer>
-                    <div class="footer">
-                        <div class="social-media">
-                            <a href="https://github.com/Danidu65" ><i > <img src="assets/icone/icons8-github-50.png" alt="github"></i></a>
-                            <a href="https://www.linkedin.com/in/danidu-viraj-152bb6267" ><i > <img src="assets/icone/icons8-linkedin-50.png" alt="linkedIn"></i></a>
-                            <a href="https://instagram.com/danidu_viraj_?igshid=NGVhN2U2NjQ0Yg==" ><i > <img src="assets/icone/icons8-instagram-50.png" alt="instagram"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=100084787574266&mibextid=LQQJ4d" ><i > <img src="assets/icone/icons8-fb-50.png" alt="facebook"></i></a>
-                        </div>
-
-                        <div class="row">
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#AboutMe">About</a></li>
-                                <li><a href="#Projects">Projects</a></li>
-                                <li><a href="#Assignment">Assignments</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="copyright-area">
-                            <div class="copyright-text">
-                                <p>Copyright © 2023 All rights reserved || Designed By: <a href="https://instagram.com/danidu_viraj_">Danidu Viraj</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </footer>
-
-                <script>
-                    var cursorDot = document.querySelector("[data-cursor-dot]")
-                    var cursorOutline = document.querySelector("[data-cursor-outline]")
-                    window.addEventListener("mousemove", function(e){
-                        const posX = e.clientX;
-                        const posY = e.clientY;
-
-                        cursorDot.style.left = `${posX}px`;
-                        cursorDot.style.top = `${posY}px`;
-                        // blur.style.left = `${posX - 200}px`;
-                        // blur.style.top = `${posY - 200}px`;
-                        cursorOutline.animate({
-                            left: `${posX}px`,
-                            top: `${posY}px`
-                        }, {duration:500, fill: "forwards"});
-                        blur.animate({
-                            left: `${posX - 200}px`,
-                            top: `${posY - 200}px`
-                        }, {duration:500, fill: "forwards"});
-                    })
 
 
-                    VanillaTilt.init(document.querySelector(".serv-box"), {
-                        max: 15,
-                        speed: 400,
-                        glare: true,
-                    });
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/lib/jquery.min.js"></script>
+<script>
+    AOS.init();
 
-                    VanillaTilt.init(document.querySelector(".serv-box2"), {
-                        max: 15,
-                        speed: 400,
-                        glare: true,
-                    });
+    window.onload = () => {
+        $("#preloader").css("display", "none");
+    }
 
-                    VanillaTilt.init(document.querySelector(".serv-box3"), {
-                        max: 15,
-                        speed: 400,
-                        glare: true,
-                    });
+    //
+    // document.addEventListener("DOMContentLoaded", () => {
+    //     console.log("B");
+    // });
+    //
+    // $(window).ready(() => {
+    //     console.log("C");
+    // });
 
-                    var typed = new Typed(".multiple-text", {
-                        strings: ["Web Developer", "Full-stack Developer", "Student", "UI/UX Designer"],
-                        typeSpeed: 100,
-                        backSpeed: 100,
-                        backDelay: 1000,
-                        loop: true
-                    })
+</script>
 
-                    var tablinks = document.getElementsByClassName("tab-links");
-                    var tabcontents = document.getElementsByClassName("tab-contents");
+<script>
 
-                    function opentab(tabname){
-                        for(tablink of tablinks){
-                            tablink.classList.remove("active-link");
-                        }
-                        for(tabcontent of tabcontents){
-                            tabcontent.classList.remove("active-tab");
-                        }
-                        event.currentTarget.classList.add("active-link");
-                        document.getElementById(tabname).classList.add("active-tab");
-                    }
-                </script>
+
+    var cursorDot = document.querySelector("[data-cursor-dot]")
+    var cursorOutline = document.querySelector("[data-cursor-outline]")
+    window.addEventListener("mousemove", function (e) {
+        const posX = e.clientX;
+        const posY = e.clientY;
+
+        cursorDot.style.left = `${posX}px`;
+        cursorDot.style.top = `${posY}px`;
+        // blur.style.left = `${posX - 200}px`;
+        // blur.style.top = `${posY - 200}px`;
+        cursorOutline.animate({
+            left: `${posX}px`,
+            top: `${posY}px`
+        }, {duration: 500, fill: "forwards"});
+        blur.animate({
+            left: `${posX - 200}px`,
+            top: `${posY - 200}px`
+        }, {duration: 500, fill: "forwards"});
+    })
+
+
+    VanillaTilt.init(document.querySelector(".serv-box"), {
+        max: 15,
+        speed: 400,
+        glare: true,
+    });
+
+    VanillaTilt.init(document.querySelector(".serv-box2"), {
+        max: 15,
+        speed: 400,
+        glare: true,
+    });
+
+    VanillaTilt.init(document.querySelector(".serv-box3"), {
+        max: 15,
+        speed: 400,
+        glare: true,
+    });
+
+    var typed = new Typed(".multiple-text", {
+        strings: ["Web Developer", "Full-stack Developer", "Student", "UI/UX Designer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    })
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
 </body>
 </html>

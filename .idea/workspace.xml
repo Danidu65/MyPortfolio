@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86323f1-5fbd-4f80-8f01-c58e9d788613" name="Changes" comment="update profile">
-      <change afterPath="$PROJECT_DIR$/assets/lib/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/assingment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/copyright.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/project.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -51,7 +49,8 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;style&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/Second Semester/WEB/Project_01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Desktop/new/MyPortfolio&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,6 +83,12 @@
       <workItem from="1693465596118" duration="1792000" />
       <workItem from="1697252247901" duration="7731000" />
       <workItem from="1697364157013" duration="5000" />
+      <workItem from="1697726228822" duration="5783000" />
+      <workItem from="1697782315122" duration="8117000" />
+      <workItem from="1697828013955" duration="2853000" />
+      <workItem from="1697860580536" duration="36000" />
+      <workItem from="1697860896141" duration="11742000" />
+      <workItem from="1697902482051" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="update profile">
       <created>1688814781852</created>

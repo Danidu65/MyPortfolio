@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/mobile-view.css">
+    <link rel="stylesheet" href="assets/css/pc-view.css">
 
     <title>Danidu Viraj | MyPortfolio</title>
 
@@ -95,11 +96,11 @@
 
     <div class="home-content">
         <h2>Welcome My Profile</h2>
-        <h1>I Am <span style="color: #00e2ff">Danidu Viraj</span></h1>
+        <h1>I Am <span class="multiText">Danidu Viraj</span></h1>
         <h3>Software Engineer Undergraduate</h3>
-        <p>I like to study new things. Being knowledgeable about PROGRAMMING or any subject is an ongoing process,<br>
+        <p>I like to study new things. Being knowledgeable about PROGRAMMING or any subject is an ongoing process,
             and I’m always proactive about seeking new opportunities to develop and grow in my role.<br>
-            Those opportunities could be in the form of training, a conference, listening to a speaker,<br>
+            Those opportunities could be in the form of training, a conference, listening to a speaker,
             or taking on a new project, but the motivation is to increase my knowledge of the field.<span
                     class="cyan">.</span></p>
 
@@ -115,12 +116,15 @@
         <a href="#" class="btn11">Download CV</a>
 
     </div>
+<!--    <div class="anim-box"></div>-->
+<!--    <div class="anim-box1"></div>-->
+<!--    <div class="anim-box2"></div>-->
 
-    <div id="home-image-wrapper">
-        <div class="home-image animate__animated animate__heartBeat">
-<!--                                    <img id="hero_img" src="assets/img/home_page_photo.png" width="500" alt="Hero Image">-->
-        </div>
-    </div>
+<!--    <div id="home-image-wrapper">-->
+<!--        <div class="home-image animate__animated animate__heartBeat">-->
+<!--&lt;!&ndash;                                    <img id="hero_img" src="assets/img/home_page_photo.png" width="500" alt="Hero Image">&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
 
 </div>
 <!--<hr class="hr">-->
@@ -130,15 +134,18 @@
 
 <div id="aboutMe">
     <div class="div-wrapper">
-        <div  class="card ">
-            <div class="lines">
-            </div>
-            <div class="content ">
-                <div class="card-img">
-                    <img src="assets/gallery/WhatsApp_Image_2023-10-15_at_18.43.28_358a6cc9-removebg-preview.png"
-                         alt="hero">
-                </div>
-            </div>
+<!--        <div  class="card ">-->
+<!--            <div class="lines">-->
+<!--            </div>-->
+<!--            <div class="content ">-->
+<!--                <div class="card-img">-->
+<!--                    <img src="assets/gallery/WhatsApp_Image_2023-10-15_at_18.43.28_358a6cc9-removebg-preview.png"-->
+<!--                         alt="hero">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="about-me-img-bg" id="about-me-img-bg">
+           <div class="about-me-img" id="about-me-img"></div>
         </div>
 
         <div class="right-div">
@@ -154,12 +161,12 @@
                 I'm always up for a challenge and excited to connect with like-minded professionals.</p>
 
             <div class="tab-titles">
-                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p id="skills-about-me" class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p id="education-about-me" class="tab-links" onclick="opentab('education')">Education</p>
             </div>
 
             <div class="tab-contents active-tab" id="skills">
-                <ul>
+                <ul id="skills-details">
                     <li><span>Stand-alone</span><br>Java</li>
                     <li><span>Database</span><br>My-SQL</li>
                     <li><span>Web-development</span><br>Html / css / JavaScript</li>
@@ -168,35 +175,50 @@
                 </ul>
             </div>
             <div class="tab-contents active-tab" id="education">
-                <ul>
+                <ul id="education-details">
                     <li>
-                        <h3 id="h1">Software Engineering Degree</h3>
-                        <h5>2024 - 2025</h5>
+                        <span>
+                            <h3 id="h1">Software Engineering Degree</h3>
+                        </span>
+
                         <p>Institue in Java Software Engineering
+                        <h5>2024 - 2025</h5>
+
                     </li>
 
                     <li>
-                        <h3 id="h3">G.C.E Advanced Level Examination</h3>
+                        <span>
+                            <h3 id="h3">G.C.E Advanced Level Examination</h3>
+                        </span>
+                        <p>Bulathsinhala Central Collage</p>
                         <h5>2021 - 2023</h5>
-                        <p>Bulathsinhala Central Collage</p>
+
                     </li>
 
                     <li>
-                        <h3 id="h4">G.C.E Advanced Level Examination</h3>
+                        <span>
+                            <h3 id="h4">G.C.E Advanced Level Examination</h3>
+                        </span>
+                        <p>Bulathsinhala Central Collage</p>
                         <h5>2016 - 2021</h5>
-                        <p>Bulathsinhala Central Collage</p>
+
                     </li>
 
                     <li>
-                        <h3 id="h5">G.C.E Ordinary Level Examination</h3>
-                        <h5>2010 - 2015</h5>
+                        <span>
+                            <h3 id="h5">G.C.E Ordinary Level Examination</h3>
+                        </span>
                         <p>Bulathsinhala Primary Collage</p>
+                        <h5>2010 - 2015</h5>
                     </li>
 
                     <li>
-                        <h3 id="h6">English Course</h3>
-                        <h5>2022 - 2022</h5>
+                        <span>
+                            <h3 id="h6">English Course</h3>
+                        </span>
                         <p>The English Bank Accadamy</p>
+                        <h5>2022 - 2022</h5>
+
                     </li>
 
                 </ul>
@@ -690,6 +712,8 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/lib/jquery.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>-->
+<script src="assets/lib/jquery.min.js"></script>
 <script>
     AOS.init();
 
@@ -706,74 +730,24 @@
     //     console.log("C");
     // });
 
+
 </script>
+
+
 
 <script>
 
+    // -----------------------------home h3--------------------------
 
-    var cursorDot = document.querySelector("[data-cursor-dot]")
-    var cursorOutline = document.querySelector("[data-cursor-outline]")
-    window.addEventListener("mousemove", function (e) {
-        const posX = e.clientX;
-        const posY = e.clientY;
+    // var typingeffect = new Typed("•multiText",{
+    //     strings: ["coder", "youtuber", "designer"],
+    //     loop : true,
+    //     typeSpeed : 100,
+    //     backSpeed : 80,
+    //     backDelay: 1500
+    // });
 
-        cursorDot.style.left = `${posX}px`;
-        cursorDot.style.top = `${posY}px`;
-        // blur.style.left = `${posX - 200}px`;
-        // blur.style.top = `${posY - 200}px`;
-        cursorOutline.animate({
-            left: `${posX}px`,
-            top: `${posY}px`
-        }, {duration: 500, fill: "forwards"});
-        blur.animate({
-            left: `${posX - 200}px`,
-            top: `${posY - 200}px`
-        }, {duration: 500, fill: "forwards"});
-    })
-
-
-    VanillaTilt.init(document.querySelector(".serv-box"), {
-        max: 15,
-        speed: 400,
-        glare: true,
-    });
-
-    VanillaTilt.init(document.querySelector(".serv-box2"), {
-        max: 15,
-        speed: 400,
-        glare: true,
-    });
-
-    VanillaTilt.init(document.querySelector(".serv-box3"), {
-        max: 15,
-        speed: 400,
-        glare: true,
-    });
-
-    var typed = new Typed(".multiple-text", {
-        strings: ["Web Developer", "Full-stack Developer", "Student", "UI/UX Designer"],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-    })
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname) {
-        for (tablink of tablinks) {
-            tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
-
-<script>
+    // --------------------------------side menu-------------------------------
 
     var sidemenu = document.getElementById("sidemenu");
 
@@ -784,6 +758,27 @@
     function closemenu() {
         sidemenu.style.right = "-200px";
     }
+
+    // --------------------------skils and education----------------------------
+
+    $("#skills-about-me").on("click" , () => {
+        $("#skills-details").css("display" , "block");
+        $("#education-details").css("display" , "none");
+        $("#skills-about-me").css("border-bottom" , "4px solid aqua");
+        $("#education-about-me").css("border-bottom" , "unset");
+
+    });
+
+    $("#education-about-me").on("click" , () => {
+        $("#skills-details").css("display" , "none");
+        $("#education-details").css("display" , "block");
+        $("#education-about-me").css("border-bottom" , "4px solid aqua");
+        $("#skills-about-me").css("border-bottom" , "unset");
+
+    });
+
+    $("#skills-about-me").click();
+
 
 </script>
 

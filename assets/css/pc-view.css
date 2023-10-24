@@ -17,6 +17,12 @@
         font-size: 25px;
     }
 
+    /*-------------------- project -------------------*/
+
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+
     /*-------------------- service -------------------*/
 
     #service {
@@ -228,6 +234,12 @@
         margin-top: 1000px;
     }
 
+
+    /*---------------------- project ---------------------*/
+
+    .project-container {
+        height: 100%;
+    }
 
 }
 

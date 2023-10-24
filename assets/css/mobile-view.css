@@ -455,17 +455,9 @@
     }
 
     /*------------------project------------------------*/
-    #project {
-        height: 1000px;
-    }
-
-    #project > .container {
-        height: 1000px;
-        width: 100%;
-    }
 
     .project-list {
-        width: 85%;
+        width: 100%;
 
     }
 

@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d86323f1-5fbd-4f80-8f01-c58e9d788613" name="Changes" comment="update profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/mobile-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mobile-view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/pc-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/pc-view.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;style&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Desktop/new/New folder/MyPortFolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Second Semester/WEB/New folder/MyPortfolio/assets/assignments&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,6 +59,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Second Semester\WEB\New folder\MyPortfolio\assets\assignments" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\Second Semester\WEB\New folder\MyPortfolio\assets\img" />
       <recent name="D:\MyPortfolio\assets\pdf" />
@@ -95,7 +97,17 @@
       <workItem from="1698139685428" duration="3903000" />
       <workItem from="1698235686172" duration="4879000" />
       <workItem from="1698245961273" duration="5034000" />
-      <workItem from="1698287587947" duration="14297000" />
+      <workItem from="1698287587947" duration="15196000" />
+      <workItem from="1698429618361" duration="425000" />
+      <workItem from="1698545875526" duration="339000" />
+      <workItem from="1698592143492" duration="579000" />
+      <workItem from="1698941520914" duration="1000" />
+      <workItem from="1698949920441" duration="1539000" />
+      <workItem from="1698953419140" duration="3776000" />
+      <workItem from="1699067431896" duration="699000" />
+      <workItem from="1699084340181" duration="73000" />
+      <workItem from="1699084429378" duration="1858000" />
+      <workItem from="1699109261999" duration="3022000" />
     </task>
     <task id="LOCAL-00001" summary="update profile">
       <created>1688814781852</created>
@@ -243,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698312371110</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1698345304837</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698345304837</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1699112764812</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699112764812</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

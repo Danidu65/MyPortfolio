@@ -320,7 +320,7 @@ body{
 #aboutMe{
     position: relative;
     z-index: 10;
-    height: 900px;
+    height: 1100px;
 }
 .center-subtopic{
     text-align: center;
@@ -1281,60 +1281,60 @@ span{
 
     /*------------------skils------------------------*/
 
-    .skils {
+    /*.skils {*/
 
-        height: 400px;
+    /*    height: 400px;*/
 
-    }
-    .skil-list{
-        width: 1100px;
-    }
+    /*}*/
+    /*.skil-list{*/
+    /*    width: 1100px;*/
+    /*}*/
 
 
-    .skils > div {
-        position: absolute;
-        width: 900px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        top: 150px;
-        left: 0;
-        right: 0;
-        margin: auto;
+    /*.skils > div {*/
+    /*    position: absolute;*/
+    /*    width: 900px;*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    justify-content: space-between;*/
+    /*    top: 150px;*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    margin: auto;*/
 
-    }
+    /*}*/
 
-    .skils > div > img:first-child {
-        width: 90px;
-        height: 100px;
+    /*.skils > div > img:first-child {*/
+    /*    width: 90px;*/
+    /*    height: 100px;*/
 
-    }
+    /*}*/
 
-    .skils > div > img:nth-child(2) {
-        width: 180px;
-        height: 95px;
+    /*.skils > div > img:nth-child(2) {*/
+    /*    width: 180px;*/
+    /*    height: 95px;*/
 
-    }
+    /*}*/
 
-    .skils > div > img:nth-child(3) {
-        position: relative;
-        top: 9px;
-        width: 100px;
-        height: 110px;
+    /*.skils > div > img:nth-child(3) {*/
+    /*    position: relative;*/
+    /*    top: 9px;*/
+    /*    width: 100px;*/
+    /*    height: 110px;*/
 
-    }
+    /*}*/
 
-    .skils > div > img:nth-child(4) {
-        width: 100px;
-        height: 206px;
+    /*.skils > div > img:nth-child(4) {*/
+    /*    width: 100px;*/
+    /*    height: 206px;*/
 
-    }
+    /*}*/
 
-    .skils > div > img:nth-child(5) {
-        width: 126px;
-        height: 206px;
+    /*.skils > div > img:nth-child(5) {*/
+    /*    width: 126px;*/
+    /*    height: 206px;*/
 
-    }
+    /*}*/
 
     /*------------------assingment------------------------*/
 

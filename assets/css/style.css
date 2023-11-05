@@ -2250,6 +2250,20 @@ span{
     .header {
         position: fixed;
     }
+    .div-wrapper {
+        padding: 350px 0;
+    }
+    .right-div>h1 {
+        position: relative;
+        font-size: 50px;
+    }
+    .skils {
+        height: 50px;
+        width: 85%;
+    }
+    /*.skils {*/
+    /*    */
+    /*}*/
 
     /*--------------------------home-----------------------*/
     #home {
@@ -2894,4 +2908,48 @@ span{
     .up-btn {
         font-size: 30px;
     }
+}
+@media all and (max-width: 400px) {
+    .about-me-img-bg {
+        position: absolute;
+        left: -24px;
+        margin-top: 180px;
+        width: 119%;
+    }
+    .right-div>h1 {
+        position: relative;
+        margin-top: -74px;
+        font-size: 42px;
+        display: inline-block;
+        padding-bottom: 813px;
+    }
+    .div-wrapper .right-div .para {
+        position: absolute;
+        top: 1045px;
+
+    }
+    .tab-links {
+        left: -56px;
+    }
+    .div-wrapper .right-div .tab-contents {
+        text-align: center;
+        position: absolute;
+        left: 1px;
+        top: 1565px;
+    }
+    #my_service {
+        margin-top: 125px;
+    }
+    .skil-heder h3, skils1 {
+        margin-top: 300px;
+        font-size: 50px;
+
+    }
+    .skils {
+        height: 50px;
+    }
+    body .galary {
+        height: 6000px;
+    }
+
 }

@@ -49,7 +49,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;style&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/Second Semester/WEB/New folder/MyPortfolio/assets/assignments&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Second Semester/WEB/New folder/MyPortfolio&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -107,7 +107,22 @@
       <workItem from="1699067431896" duration="699000" />
       <workItem from="1699084340181" duration="73000" />
       <workItem from="1699084429378" duration="1858000" />
-      <workItem from="1699109261999" duration="3022000" />
+      <workItem from="1699109261999" duration="3466000" />
+      <workItem from="1699160416945" duration="4038000" />
+      <workItem from="1699254384643" duration="4827000" />
+      <workItem from="1699259589615" duration="2540000" />
+      <workItem from="1699330634005" duration="166000" />
+      <workItem from="1699331137568" duration="31000" />
+      <workItem from="1699331733634" duration="9352000" />
+      <workItem from="1699368539787" duration="114000" />
+      <workItem from="1699368732316" duration="23000" />
+      <workItem from="1699368917239" duration="223000" />
+      <workItem from="1699369157517" duration="135000" />
+      <workItem from="1699369350675" duration="118000" />
+      <workItem from="1699369661039" duration="38000" />
+      <workItem from="1699514663993" duration="1517000" />
+      <workItem from="1699526851312" duration="2563000" />
+      <workItem from="1699601062795" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="update profile">
       <created>1688814781852</created>
@@ -271,7 +286,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699112764812</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1699112988468</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699112988468</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1699113185505</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699113185505</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update profile">
+      <option name="closed" value="true" />
+      <created>1699168099847</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699168099847</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
